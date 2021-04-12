@@ -5,7 +5,7 @@ import static org.junit.Assert.*;
 
 public class MainTest {
 
-  @Test
+  @Ignore
   public void testMain() {
       // fail();  // Establecemos que este test falle 
       Main m = new Main();

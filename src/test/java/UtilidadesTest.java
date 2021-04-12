@@ -39,7 +39,7 @@ public class UtilidadesTest {
     }
 
 
-    @Test   // Este test falla con el método Utilidades.ordenar comentado 
+    @Test  // Este test falla con el método Utilidades.ordenar comentado 
     public void testOrdenar2Iguales() {
         for (int i = 0 ; i < n ; i++ ) {
             int n1 = (int)Math.random()*(max - min) + min + 1;
